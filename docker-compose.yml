@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: ./
+      args:
+        - REACT_APP_API_URL=${REACT_APP_API_URL}
+        - REACT_APP_GYAZO_AUTH_URL=${REACT_APP_GYAZO_AUTH_URL}
+        - REACT_APP_GA_UNIVERSAL_ID=${REACT_APP_GA_UNIVERSAL_ID}
+    image: n1kaera/bloggimg
+    env_file:
+      - ./server/.env
+    ports:
+      - 8080:8080
