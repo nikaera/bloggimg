@@ -8,3 +8,6 @@ https://www.bloggimg.net/
 
 [Twitter](https://twitter.com/n1kaera) か [GitHub Issues](https://github.com/nikaera/bloggimg/issues) からご連絡くださいませ。
 
+## ライセンス
+
+[MIT](https://github.com/nikaera/bloggimg/blob/main/LICENSE)
